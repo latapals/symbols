@@ -1,0 +1,14 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="8" cy="2.75" r="1" fill="black"/>
+<circle cx="8" cy="13.25" r="1" fill="black"/>
+<path d="M8 3V13" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="4.28775" cy="4.28772" r="1" transform="rotate(-45 4.28775 4.28772)" fill="black"/>
+<circle cx="11.7123" cy="11.7123" r="1" transform="rotate(-45 11.7123 11.7123)" fill="black"/>
+<path d="M4.46448 4.46448L11.5355 11.5355" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="2.75" cy="8" r="1" transform="rotate(-90 2.75 8)" fill="black"/>
+<circle cx="13.25" cy="8" r="1" transform="rotate(-90 13.25 8)" fill="black"/>
+<path d="M3 8H13" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="4.28772" cy="11.7123" r="1" transform="rotate(-135 4.28772 11.7123)" fill="black"/>
+<circle cx="11.7123" cy="4.28769" r="1" transform="rotate(-135 11.7123 4.28769)" fill="black"/>
+<path d="M4.46448 11.5356L11.5355 4.46452" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
