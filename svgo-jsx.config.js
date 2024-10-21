@@ -123,6 +123,7 @@ const ${componentName} = React.forwardRef<React.ElementRef<'div'>, ${componentNa
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
+                    flexShrink: 0,
                     ...(props.style ?? {}),
                 }}
                 ref={ref}
