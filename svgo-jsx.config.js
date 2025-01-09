@@ -101,6 +101,7 @@ export const config = {
   },
 
   svgProps: {
+    scale: '1.33333333',
     width: '100%',
     height: '100%',
   },
@@ -117,8 +118,8 @@ const ${componentName} = React.forwardRef<React.ElementRef<'div'>, ${componentNa
             <div
                 {...props}
                 style={{
-                    width: size ?? 24,
-                    height: size ?? 24,
+                    width: size ?? '1em',
+                    height: size ?? '1em',
                     overflow: 'clip',
                     display: 'flex',
                     alignItems: 'center',
