@@ -101,7 +101,6 @@ export const config = {
   },
 
   svgProps: {
-    scale: "calc(4/3)",
     width: '100%',
     height: '100%',
   },
@@ -129,7 +128,7 @@ const ${componentName} = React.forwardRef<React.ElementRef<'div'>, ${componentNa
                 }}
                 ref={ref}
             >
-                ${jsx}
+                ${jsx.replaceAll(`xmlns="http://www.w3.org/2000/svg"`, `xmlns="http://www.w3.org/2000/svg" style={{ scale: "calc(4/3)" }}`)}
             </div>
         );
     },
