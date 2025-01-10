@@ -38,6 +38,9 @@ To add custom icons, follow these steps:
 4. Run `bun run build`
 5. Push
 
+> [!IMPORTANT]  
+> If you're getting errors on a Windows machine, try using WSL.
+
 ## Contributing
 
 Please see our [contribution guidelines](/CONTRIBUTING.md). Latapals Symbols is an open-source project.

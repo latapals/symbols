@@ -1,42 +1,42 @@
 {
-    "name": "latapals-symbols",
-    "version": "0.0.1",
-    "main": "build/index.ts",
-    "types": "build/index.ts",
-    "type": "module",
-    "files": [
-        "build",
-        "README.md"
-    ],
-    "exports": {
-        ".": {
-            "import": "./build/index.js",
-            "types": "./build/index.d.ts"
-        }
-    },
-    "typesVersions": {
-        "*": {
-            "*": [
-                "./build/*/index.d.ts",
-                "./build/index.d.ts"
-            ]
-        }
-    },
-    "scripts": {
-        "build-icons": "svgo-jsx",
-        "build-ts": "tsup",
-        "build": "bun run build-icons && bun run build-ts",
-        "prepublishOnly": "bun run build"
-    },
-    "devDependencies": {
-        "@svgo/jsx": "^0.4.2",
-        "@types/react": "^18",
-        "@types/react-dom": "^18",
-        "tsup": "^8.2.4",
-        "typescript": "^5.6.2"
-    },
-    "peerDependencies": {
-        "react": "^18",
-        "react-dom": "^18"
+  "name": "@latapals/symbols",
+  "version": "0.0.1",
+  "main": "build/index.ts",
+  "types": "build/index.ts",
+  "type": "module",
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "import": "./build/index.js",
+      "types": "./build/index.d.ts"
     }
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./build/*/index.d.ts",
+        "./build/index.d.ts"
+      ]
+    }
+  },
+  "scripts": {
+    "build-icons": "svgo-jsx",
+    "build-ts": "tsup",
+    "build": "bun run build-icons && bun run build-ts",
+    "prepublishOnly": "bun run build"
+  },
+  "devDependencies": {
+    "@svgo/jsx": "^0.4.2",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "tsup": "^8.2.4",
+    "typescript": "^5.6.2"
+  },
+  "peerDependencies": {
+    "react": "^18",
+    "react-dom": "^18"
+  }
 }
