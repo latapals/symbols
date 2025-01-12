@@ -7,7 +7,7 @@ Over 600 symbols available for you to use, open-source and free to use.
 To install dependencies:
 
 ```bash
-bun install latapals-symbols
+bun install @latapals/symbols
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ bun install latapals-symbols
 To use the icons, simply import the icon you want to use:
 
 ```tsx
-import { Cursor } from "latapals-symbols";
+import { Cursor } from "@latapals/symbols";
 ```
 
 and use it in your component, you can also pass in props to the icon and define the size:
