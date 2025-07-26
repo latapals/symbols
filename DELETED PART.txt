@@ -1,0 +1,1 @@
+    "prepublishOnly": "bun run build"
