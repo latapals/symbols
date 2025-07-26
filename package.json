@@ -1,6 +1,6 @@
 {
   "name": "@latapals/symbols",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "build/index.ts",
   "types": "build/index.ts",
   "type": "module",
